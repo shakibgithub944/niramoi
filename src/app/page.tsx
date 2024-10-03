@@ -1,13 +1,12 @@
-import Link from "next/link";
+import HeaderOne from "../components/HeaderOne";
+import BannerTwo from "../components/BannerTwo";
 
 export default function Home() {
   return (
     <div>
-      <nav>
-        <Link href="/">Home</Link>
-        <Link href="/product">Product</Link>
-      </nav>
-      <h1 className="text-danger">Homesss</h1>
+      {/* Header */}
+      <HeaderOne />
+      <BannerTwo />
     </div>
   );
 }
