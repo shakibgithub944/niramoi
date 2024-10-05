@@ -13,7 +13,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dynamic from "next/dynamic";
 export const Slider = dynamic(() => import("react-slick"), { ssr: false });
-
+export const ReactSlider = dynamic(() => import("react-slick"), { ssr: false });
+import HeaderTwo from "../components/HeaderTwo";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <HeaderTwo category={true} />
         {children}
       </body>
     </html>
