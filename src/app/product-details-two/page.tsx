@@ -1,15 +1,26 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { getCountdown } from "../../helper/Countdown";
+// import { getCountdown } from "../../helper/Countdown";
 import { Slider } from "../layout";
 import Link from "next/link";
+interface ITimeLeft {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
 
 const ProductDetailsTwo = () => {
-  const [timeLeft, setTimeLeft] = useState(getCountdown());
-
+  // const [timeLeft, setTimeLeft] = useState<ITimeLeft>(getCountdown());
+  const timeLeft: ITimeLeft = {
+    days: 2,
+    hours: 12,
+    minutes: 30,
+    seconds: 10,
+  };
   useEffect(() => {
     const interval = setInterval(() => {
-      setTimeLeft(getCountdown());
+      // setTimeLeft(getCountdown());
     }, 1000);
 
     return () => clearInterval(interval);
@@ -148,7 +159,7 @@ const ProductDetailsTwo = () => {
                   <span className="mt-32 pt-32 text-gray-700 border-top border-gray-100 d-block" />
                   <p className="text-gray-700">
                     Geared up and ready to roll: Get the responsive performance
-                    you're looking for with an Intel processor and 64 GB eMMC
+                    you are looking for with an Intel processor and 64 GB eMMC
                     storage. Stay productive with compatible apps like Microsoft
                     Office, Google Workspace, and more. The Chrome OS gives you
                     a fast, simple, and secure online experience with built-in
@@ -485,7 +496,7 @@ const ProductDetailsTwo = () => {
                   <div className="mb-40">
                     <h6 className="mb-24">Product Description</h6>
                     <p>
-                      Wherever celebrations and good times happen, the LAY'S
+                      Wherever celebrations and good times happen, the LAYS
                       brand will be there just as it has been for more than 75
                       years. With flavors almost as rich as our history, we have
                       a chip or crisp flavor guaranteed to bring a smile on your
@@ -506,10 +517,10 @@ const ProductDetailsTwo = () => {
                     </p>
                     <ul className="list-inside mt-32 ms-16">
                       <li className="text-gray-400 mb-4">
-                        8.0 oz. bag of LAY'S Classic Potato Chips
+                        8.0 oz. bag of LAYS Classic Potato Chips
                       </li>
                       <li className="text-gray-400 mb-4">
-                        Tasty LAY's potato chips are a great snack
+                        Tasty LAYs potato chips are a great snack
                       </li>
                       <li className="text-gray-400 mb-4">
                         Includes three ingredients: potatoes, oil, and salt
@@ -556,7 +567,7 @@ const ProductDetailsTwo = () => {
                         </span>
                         <span className="text-heading fw-medium">
                           Brand:
-                          <span className="text-gray-500"> Lay's</span>
+                          <span className="text-gray-500"> Lays</span>
                         </span>
                       </li>
                       <li className="text-gray-400 mb-14 flex-align gap-14">

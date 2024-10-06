@@ -148,7 +148,7 @@ const ShopSection = () => {
                     ariaLabel={["Lower thumb", "Upper thumb"]}
                     ariaValuetext={(state) => `Thumb value ${state.valueNow}`}
                     renderThumb={(props, state) => {
-                      const { key, ...restProps } = props;
+                      const { ...restProps } = props;
                       return (
                         <div {...restProps} key={state.index}>
                           {state.valueNow}

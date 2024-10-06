@@ -18,7 +18,7 @@ const DiscountOne = () => {
                     UP TO 30% OFF
                   </span>
                   <h6 className="mb-20">
-                    57" Odyssey Neo G9 Dual 4K UHD Quantum Mini-LED
+                    57 Odyssey Neo G9 Dual 4K UHD Quantum Mini-LED
                   </h6>
                   <Link
                     href="/shop"
@@ -49,7 +49,7 @@ const DiscountOne = () => {
                     UP TO 30% OFF
                   </span>
                   <h6 className="mb-20">
-                    57" Odyssey Neo G9 Dual 4K UHD Quantum Mini-LED
+                    57 Odyssey Neo G9 Dual 4K UHD Quantum Mini-LED
                   </h6>
                   <Link
                     href="/shop"
