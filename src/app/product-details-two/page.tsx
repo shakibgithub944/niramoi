@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-// import { getCountdown } from "../../helper/Countdown";
+import { getCountdown } from "../../helper/Countdown";
 import { Slider } from "../layout";
 import Link from "next/link";
 interface ITimeLeft {
@@ -11,26 +11,21 @@ interface ITimeLeft {
 }
 
 const ProductDetailsTwo = () => {
-  // const [timeLeft, setTimeLeft] = useState<ITimeLeft>(getCountdown());
-  const timeLeft: ITimeLeft = {
-    days: 2,
-    hours: 12,
-    minutes: 30,
-    seconds: 10,
-  };
+  const [timeLeft, setTimeLeft] = useState<ITimeLeft>(getCountdown());
+
   useEffect(() => {
     const interval = setInterval(() => {
-      // setTimeLeft(getCountdown());
+      setTimeLeft(getCountdown());
     }, 1000);
 
     return () => clearInterval(interval);
   }, []);
   const productImages = [
-    "assets/images/thumbs/product-details-two-thumb1.png",
-    "assets/images/thumbs/product-details-two-thumb2.png",
-    "assets/images/thumbs/product-details-two-thumb3.png",
-    "assets/images/thumbs/product-details-two-thumb1.png",
-    "assets/images/thumbs/product-details-two-thumb2.png",
+    "../../../public/assets/images/thumbs/product-details-two-thumb1.png",
+    "../../../public/assets/images/thumbs/product-details-two-thumb2.png",
+    "../../../public/assets/images/thumbs/product-details-two-thumb3.png",
+    "../../../public/assets/images/thumbs/product-details-two-thumb1.png",
+    "../../../public/assets/images/thumbs/product-details-two-thumb2.png",
   ];
 
   // increment & decrement

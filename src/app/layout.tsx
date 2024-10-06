@@ -1,16 +1,17 @@
 // import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-//
 import "../../public/assets/css/main.css";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/sass/main.scss";
 import "../../public/assets/css/jquery-ui.css";
-// import "../../public/assets/css/select2.min.css";
-// import "../../public/assets/css/slick.css";
+import "../../public/assets/sass/main.scss";
 
+import "select2/dist/css/select2.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import reportWebVitals from "./reportWebVitals";
+
 import dynamic from "next/dynamic";
 export const Slider = dynamic(() => import("react-slick"), { ssr: false });
 export const ReactSlider = dynamic(() => import("react-slick"), { ssr: false });
@@ -39,9 +40,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <HeaderTwo category={true} />
+        <HeaderTwo category={false} />
         {children}
       </body>
     </html>
   );
 }
+reportWebVitals();
