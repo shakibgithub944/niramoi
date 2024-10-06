@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
-const QuantityControl = ({ initialQuantity = 1 }) => {
+// const QuantityControl = ({ initialQuantity = 1 }) => {
+const QuantityControl = () => {
   // const [quantity, setQuantity] = useState(initialQuantity);
   // const incrementQuantity = () => setQuantity(quantity + 1);
   // const decrementQuantity = () => setQuantity(quantity > 1 ? quantity - 1 : quantity);
