@@ -19,7 +19,7 @@ const HeaderTwo = ({ category }) => {
 
     return () => {
       if (selectElement.data("select2")) {
-        // selectElement.select2("destroy");
+        // selectElement.select2("destroy");;
       }
     };
   }, []);
