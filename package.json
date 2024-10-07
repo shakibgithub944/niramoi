@@ -11,9 +11,13 @@
     "cache:clean": "rm -rf .next .cache .turbo"
   },
   "dependencies": {
+    "@phosphor-icons/react": "github:phosphor-icons/react",
     "bootstrap": "^5.3.3",
+    "install": "^0.13.0",
     "jquery": "^3.7.1",
     "next": "14.2.14",
+    "npm": "^10.9.0",
+    "phosphor-react": "^1.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scroll-to-top": "^3.0.0",

@@ -18,22 +18,11 @@ const ShopPage = () => {
 
       {/* Preloader */}
       <Preloader />
-
-      {/* HeaderOne */}
-      {/* <HeaderTwo category={true} /> */}
-      {/* <HeaderOne /> */}
-
       {/* Breadcrumb */}
       <Breadcrumb title={"Shop"} />
 
       {/* ShopSection */}
       <ShopSection />
-
-      {/* ShippingTwo */}
-      <ShippingTwo />
-
-      {/* FooterTwo */}
-      <FooterTwo />
     </>
   );
 };

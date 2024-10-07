@@ -12,10 +12,6 @@ import TopVendorsTwo from "../components/TopVendorsTwo";
 import DaySaleOne from "../components/DaySaleOne";
 import RecentlyViewedOne from "../components/RecentlyViewedOne";
 import BrandTwo from "../components/BrandTwo";
-import ShippingTwo from "../components/ShippingTwo";
-import NewsletterTwo from "../components/NewsletterTwo";
-import FooterTwo from "../components/FooterTwo";
-import BottomFooter from "../components/BottomFooter";
 
 export default function Home() {
   return (
@@ -55,18 +51,6 @@ export default function Home() {
 
       {/* BrandTwo */}
       <BrandTwo />
-
-      {/* ShippingTwo */}
-      <ShippingTwo />
-
-      {/* NewsletterTwo */}
-      <NewsletterTwo />
-
-      {/* FooterTwo */}
-      <FooterTwo />
-
-      {/* BottomFooter */}
-      <BottomFooter />
     </div>
   );
 }

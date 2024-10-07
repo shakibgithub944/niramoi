@@ -6,16 +6,21 @@ import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/sass/main.scss";
 import "../../public/assets/css/jquery-ui.css";
 import "../../public/assets/sass/main.scss";
-
 import "select2/dist/css/select2.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import reportWebVitals from "./reportWebVitals";
-
+// import RouteScrollToTop from "../helper/RouteScrollToTop";
+import PhosphorIconInit from "../helper/PhosphorIconInit";
 import dynamic from "next/dynamic";
 export const Slider = dynamic(() => import("react-slick"), { ssr: false });
 export const ReactSlider = dynamic(() => import("react-slick"), { ssr: false });
 import HeaderTwo from "../components/HeaderTwo";
+import FooterTwo from "../components/FooterTwo";
+import BottomFooter from "../components/BottomFooter";
+import ShippingTwo from "../components/ShippingTwo";
+import NewsletterTwo from "../components/NewsletterTwo";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -40,8 +45,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        {/* <RouteScrollToTop /> */}
+        <PhosphorIconInit />
         <HeaderTwo category={false} />
         {children}
+        {/* ShippingTwo */}
+        <ShippingTwo />
+        {/* FooterTwo */}
+        {/* NewsletterTwo */}
+        <NewsletterTwo />
+        <FooterTwo />
+        {/* BottomFooter */}
+        <BottomFooter />
       </body>
     </html>
   );
