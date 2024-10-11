@@ -41,10 +41,10 @@ const PromotionalTwo = () => {
     // prevArrow: <SamplePrevArrow />,
   };
   return (
-    <section className="promotional-banner mt-32">
+    <section className="promotional-banner mx-32 mt-32">
       <div className="container container-lg">
         <div className="row gy-4 vendor-card-wrapper">
-          <div className="col-xxl-2 col-lg-4 col-sm-6">
+          <div className="col-xxl-2 col-lg-5 col-sm-6">
             <div className="vendor-card text-center px-16 pb-24">
               <div className="">
                 <img
@@ -52,67 +52,13 @@ const PromotionalTwo = () => {
                   alt=""
                   className="vendor-card__logo m-12"
                 />
-                <h6 className="title mt-32 text-lg">Organic Market</h6>
+                <h6 className="title mt-32 text-lg">Organic Marksset</h6>
                 <div className="flex-align gap-6 justify-content-center">
                   <span className="text-lg fw-medium text-warning-600 d-flex">
                     <i className="ph-fill ph-star" />
                   </span>
                   <span className="text-md fw-medium text-heading">4.8</span>
                   <span className="text-md fw-medium text-heading">(12K)</span>
-                </div>
-              </div>
-              <div className="position-relative slick-arrows-style-three">
-                <div className="vendor-card__list style-two mt-22">
-                  <Slider {...settings}>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img1.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img2.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img3.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img4.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img5.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img6.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </Slider>
                 </div>
               </div>
             </div>
@@ -132,60 +78,6 @@ const PromotionalTwo = () => {
                   </span>
                   <span className="text-md fw-medium text-heading">4.8</span>
                   <span className="text-md fw-medium text-heading">(12K)</span>
-                </div>
-              </div>
-              <div className="position-relative slick-arrows-style-three">
-                <div className="vendor-card__list style-two mt-22">
-                  <Slider {...settings}>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img6.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img7.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img8.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img9.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img10.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img11.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </Slider>
                 </div>
               </div>
             </div>
@@ -207,58 +99,23 @@ const PromotionalTwo = () => {
                   <span className="text-md fw-medium text-heading">(12K)</span>
                 </div>
               </div>
-              <div className="position-relative slick-arrows-style-three">
-                <div className="vendor-card__list style-two mt-22">
-                  <Slider {...settings}>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img1.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img2.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img3.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img4.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img5.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img6.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </Slider>
+            </div>
+          </div>
+          <div className="col-xxl-2 col-lg-4 col-sm-6">
+            <div className="vendor-card text-center px-16 pb-24">
+              <div className="">
+                <img
+                  src="assets/images/thumbs/vendor-logo1.png"
+                  alt=""
+                  className="vendor-card__logo m-12"
+                />
+                <h6 className="title mt-32 text-lg">Best Buy</h6>
+                <div className="flex-align gap-6 justify-content-center">
+                  <span className="text-lg fw-medium text-warning-600 d-flex">
+                    <i className="ph-fill ph-star" />
+                  </span>
+                  <span className="text-md fw-medium text-heading">4.8</span>
+                  <span className="text-md fw-medium text-heading">(12K)</span>
                 </div>
               </div>
             </div>
@@ -280,60 +137,6 @@ const PromotionalTwo = () => {
                   <span className="text-md fw-medium text-heading">(12K)</span>
                 </div>
               </div>
-              <div className="position-relative slick-arrows-style-three">
-                <div className="vendor-card__list style-two mt-22">
-                  <Slider {...settings}>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img6.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img7.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img8.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img9.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img10.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img11.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </Slider>
-                </div>
-              </div>
             </div>
           </div>
           <div className="col-xxl-2 col-lg-4 col-sm-6">
@@ -344,67 +147,13 @@ const PromotionalTwo = () => {
                   alt=""
                   className="vendor-card__logo m-12"
                 />
-                <h6 className="title mt-32 text-lg">Best Buy</h6>
+                <h6 className="title mt-32 text-lg">Organic Market</h6>
                 <div className="flex-align gap-6 justify-content-center">
                   <span className="text-lg fw-medium text-warning-600 d-flex">
                     <i className="ph-fill ph-star" />
                   </span>
                   <span className="text-md fw-medium text-heading">4.8</span>
                   <span className="text-md fw-medium text-heading">(12K)</span>
-                </div>
-              </div>
-              <div className="position-relative slick-arrows-style-three">
-                <div className="vendor-card__list style-two mt-22">
-                  <Slider {...settings}>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img6.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img7.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img8.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img9.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img10.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="vendor-card__item bg-white rounded-circle flex-center">
-                        <img
-                          src="assets/images/thumbs/vendor-two-img11.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </Slider>
                 </div>
               </div>
             </div>

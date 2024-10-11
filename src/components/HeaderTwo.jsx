@@ -172,7 +172,7 @@ const HeaderTwo = ({ category }) => {
                 action="#"
                 className="flex-align flex-wrap form-location-wrapper"
               >
-                <div className="search-category style-two d-flex h-48 search-form d-sm-flex d-none">
+                <div className="search-category style-two d-flex h-40 search-form d-sm-flex d-none">
                   <select
                     defaultValue={1}
                     className="js-example-basic-single border border-gray-200 border-end-0 rounded-0 border-0"
@@ -193,7 +193,7 @@ const HeaderTwo = ({ category }) => {
                   <div className="search-form__wrapper position-relative">
                     <input
                       type="text"
-                      className="search-form__input common-input py-13 ps-16 pe-18 rounded-0 border-0"
+                      className="search-form__input common-input py-10 ps-14 pe-16 rounded-0 border-0"
                       placeholder="Search for a product or brand"
                     />
                   </div>

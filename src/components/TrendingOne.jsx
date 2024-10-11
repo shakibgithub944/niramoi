@@ -144,7 +144,7 @@ const TrendingOne = () => {
               tabIndex={0}
             >
               <div className="row g-12">
-                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-6">
+                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-5">
                   <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                     <Link
                       href="/product-details-two"
@@ -216,7 +216,7 @@ const TrendingOne = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-6">
+                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-5">
                   <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                     <Link
                       href="/product-details-two"
@@ -288,7 +288,7 @@ const TrendingOne = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-6">
+                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-5">
                   <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                     <Link
                       href="/product-details-two"
@@ -360,7 +360,7 @@ const TrendingOne = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-6">
+                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-5">
                   <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                     <Link
                       href="/product-details-two"
@@ -432,7 +432,7 @@ const TrendingOne = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-6">
+                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-5">
                   <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                     <Link
                       href="/product-details-two"
@@ -504,7 +504,7 @@ const TrendingOne = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-6">
+                <div className="col-xxl-2 col-xl-3 col-lg-4 col-sm-5">
                   <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                     <Link
                       href="/product-details-two"

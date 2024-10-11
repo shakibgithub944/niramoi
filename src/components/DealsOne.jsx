@@ -78,16 +78,16 @@ const DealsOne = () => {
     ],
   };
   return (
-    <section className="deals-weeek pt-80">
+    <section className="deals-weeek pt-76">
       <div className="container container-lg">
         <div className="border border-gray-100 p-24 rounded-16">
           <div className="section-heading mb-24">
-            <div className="flex-between flex-wrap gap-8">
+            <div className="flex-between flex-wrap gap-8 mb-16">
               <h5 className="mb-0">Deal of The Week</h5>
-              <div className="flex-align mr-point gap-16">
+              <div className="flex-align gap-16">
                 <Link
                   href="/shop"
-                  className="text-sm fw-medium text-gray-700 hover-text-main-600 hover-text-decoration-underline"
+                  className=" text-sm fw-medium text-gray-700 hover-text-main-600 hover-text-decoration-underline"
                 >
                   View All Deals
                 </Link>
