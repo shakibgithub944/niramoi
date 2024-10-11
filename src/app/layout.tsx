@@ -20,6 +20,7 @@ import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 import ShippingTwo from "../components/ShippingTwo";
 import NewsletterTwo from "../components/NewsletterTwo";
+import SidebarOptions from "@/components/SidebarOptions";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -47,16 +48,38 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {/* <RouteScrollToTop /> */}
         <PhosphorIconInit />
-        <HeaderTwo category={false} />
-        {children}
-        {/* ShippingTwo */}
-        <ShippingTwo />
-        {/* FooterTwo */}
-        {/* NewsletterTwo */}
-        <NewsletterTwo />
-        <FooterTwo />
-        {/* BottomFooter */}
-        <BottomFooter />
+        <header style={{ position: "sticky", top: 0, zIndex: 1000 }}>
+          <HeaderTwo category={false} />
+        </header>
+
+        <div
+          className="container-fluid"
+          style={{ height: "100vh", overflow: "hidden" }}
+        >
+          <div className="row h-100">
+            {/* Sticky Sidebar */}
+            <aside
+              className="d-none d-md-block col-md-2 border h-100"
+              style={{ position: "sticky", top: 0 }}
+            >
+              <SidebarOptions />
+            </aside>
+
+            {/* Scrollable Content Area */}
+            <main
+              className="col-12 col-md-10 overflow-auto"
+              style={{ height: "100vh", overflowY: "auto" }}
+            >
+              {children}
+              <footer>
+                <ShippingTwo />
+                <NewsletterTwo />
+                <FooterTwo />
+                <BottomFooter />
+              </footer>
+            </main>
+          </div>
+        </div>
       </body>
     </html>
   );

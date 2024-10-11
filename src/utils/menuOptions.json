@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Cell Phone",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Wear",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Computer",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Headphone",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Smart Screen",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Smart Home",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Digital Accessories",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Value Added Services",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Car Products",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Ecological Products",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Flat",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Commercial Terminal",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Headphone",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  },
+  {
+    "title": "Smart Screen",
+    "icon": "ph-caret-right",
+    "submenus": [
+      { "title": "Samsung", "link": "/shop" },
+      { "title": "Iphone", "link": "/shop" },
+      { "title": "Vivo", "link": "/shop" },
+      { "title": "Oppo", "link": "/shop" },
+      { "title": "Itel", "link": "/shop" },
+      { "title": "Realme", "link": "/shop" }
+    ]
+  }
+]

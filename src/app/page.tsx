@@ -8,7 +8,7 @@ import FeaturedOne from "../components/FeaturedOne";
 import BigDealOne from "../components/BigDealOne";
 import TopSellingTwo from "../components/TopSellingTwo";
 import PopularProductsOne from "../components/PopularProductsOne";
-import TopVendorsTwo from "../components/TopVendorsTwo";
+// import TopVendorsTwo from "../components/TopVendorsTwo";
 import DaySaleOne from "../components/DaySaleOne";
 import RecentlyViewedOne from "../components/RecentlyViewedOne";
 import BrandTwo from "../components/BrandTwo";
@@ -41,7 +41,7 @@ export default function Home() {
       <PopularProductsOne />
 
       {/* TopVendorsTwo */}
-      <TopVendorsTwo />
+      {/* <TopVendorsTwo /> */}
 
       {/* DaySaleOne */}
       <DaySaleOne />
