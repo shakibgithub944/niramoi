@@ -1,6 +1,4 @@
 "use client";
-/* eslint-disable @next/next/no-img-element */
-
 const PromotionalTwo = () => {
   return (
     <section className="promotional-banner mx-32 mt-32">
