@@ -62,5 +62,37 @@
     "quantityInfo": "/Bunch",
     "link": "/product-details-two",
     "cartLink": "/cart"
+  },
+  {
+    "id": 2,
+    "status": "Available",
+    "image": "assets/images/thumbs/product-two-img8.png",
+    "rating": 4.5,
+    "reviews": "10k",
+    "title": "Organic Baby Carrots Vegetables",
+    "store": "Fresh Foods Market",
+    "progress": 50,
+    "soldInfo": "25/50",
+    "originalPrice": "$22.50",
+    "currentPrice": "$11.99",
+    "quantityInfo": "/Pack",
+    "link": "/product-details-two",
+    "cartLink": "/cart"
+  },
+  {
+    "id": 3,
+    "status": "Limited Stock",
+    "image": "assets/images/thumbs/product-two-img9.png",
+    "rating": 4.7,
+    "reviews": "5k",
+    "title": "California Fresh Strawberries",
+    "store": "Nature's Best",
+    "progress": 80,
+    "soldInfo": "40/50",
+    "originalPrice": "$19.99",
+    "currentPrice": "$9.99",
+    "quantityInfo": "/Pack",
+    "link": "/product-details-two",
+    "cartLink": "/cart"
   }
 ]

@@ -11,44 +11,56 @@ import PopularProductsOne from "../components/PopularProductsOne";
 import DaySaleOne from "../components/DaySaleOne";
 import RecentlyViewedOne from "../components/RecentlyViewedOne";
 import BrandTwo from "../components/BrandTwo";
+import CategoryBasedProducts from "../components/CategoryBasedProducts";
 
 export default function Home() {
   return (
     <div>
-      {/* Header */}
-      {/* <HeaderOne /> */}
       <BannerTwo />
-      {/* PromotionalTwo */}
+
       <PromotionalTwo />
-      {/* DealsOne */}
+
       <DealsOne />
-      {/* TopSellingOne */}
+
       <TopSellingOne />
-      {/* TrendingOne */}
+
+      <CategoryBasedProducts
+        title="Health Bridge"
+        titleColor="#6A9C89"
+        bgColor="#C4DAD2"
+      />
+      <CategoryBasedProducts
+        title="Vital Cure Hub"
+        titleColor="#4D869C"
+        bgColor="#CDE8E5"
+      />
+      <CategoryBasedProducts
+        title="Medi Care Essentials"
+        titleColor="#AB886D"
+        bgColor="#E4E0E1"
+      />
+      <CategoryBasedProducts
+        title="Health Guard"
+        titleColor="#65aeb3"
+        bgColor="#cce4e6"
+      />
+
       <TrendingOne />
-      {/* DiscountOne */}
+
       <DiscountOne />
-      {/* FeaturedOne */}
+
       <FeaturedOne />
-      {/* BigDealOne */}
+
       <BigDealOne />
 
-      {/* TopSellingTwo */}
       <TopSellingTwo />
 
-      {/* PopularProductsOne */}
       <PopularProductsOne />
 
-      {/* TopVendorsTwo */}
-      {/* <TopVendorsTwo /> */}
-
-      {/* DaySaleOne */}
       <DaySaleOne />
 
-      {/* RecentlyViewedOne */}
       <RecentlyViewedOne />
 
-      {/* BrandTwo */}
       <BrandTwo />
     </div>
   );
