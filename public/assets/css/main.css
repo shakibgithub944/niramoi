@@ -8270,11 +8270,13 @@ input:focus-visible {
     background-color: var(--gray-50);
     color: var(--gray-900) !important;
     font-weight: 600;
+    z-index: 10000000000;
   }
 
   .has-submenus-submenu:hover .submenus-submenu {
     visibility: visible;
     opacity: 1;
+    z-index: 10000000000;
   }
 }
 

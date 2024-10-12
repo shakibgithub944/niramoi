@@ -3,8 +3,8 @@ import MenuOptions from "../utils/menuOptions.json";
 
 const SidebarOptions = () => {
   return (
-    <div className="w-265 d-lg-block d-none flex-shrink-0">
-      <div className="responsive-dropdown style-two common-dropdown nav-submenu p-0 submenus-submenu-wrapper shadow-none border border-gray-100 position-relative border-top-0">
+    <div className="d-lg-block d-none flex-shrink-0">
+      <div className="responsive-dropdown style-two common-dropdown nav-submenu p-0 submenus-submenu-wrapper shadow-none position-relative border-top-0">
         <button
           type="button"
           className="close-responsive-dropdown rounded-circle text-xl position-absolute inset-inline-end-0 inset-block-start-0 mt-4 me-8 d-lg-none d-flex"
@@ -35,7 +35,7 @@ const SidebarOptions = () => {
                 <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                   {menu?.submenus?.map((subMenu, index) => (
                     <li key={index}>
-                      <Link href={`/${subMenu?.link}`}>{subMenu?.title}</Link>
+                      <Link href="/shop">{subMenu?.title}</Link>
                     </li>
                   ))}
                 </ul>

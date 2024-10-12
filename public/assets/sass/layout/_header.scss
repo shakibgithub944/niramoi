@@ -287,8 +287,8 @@
 }
 .responsive-dropdown.style-two {
     width: 100%;
-    border-radius: 0 0 16px 16px;  
-    width: 265px;
+    // border-radius: 0 0 16px 16px;  
+    width: 225px;
     max-height: 900px;
     .responsive-dropdown__list {
         max-height: 900px;
@@ -297,7 +297,7 @@
         }
     }
     @media (min-width: 992px) {
-        z-index: 1;
+        z-index: 100000;
     }
 }
 

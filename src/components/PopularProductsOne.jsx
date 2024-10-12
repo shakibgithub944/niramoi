@@ -68,7 +68,7 @@ const PopularProductsOne = () => {
             </div>
           </div>
           <div className="row gy-4">
-            <div className="col-xxl-3 col-xl-4 col-sm-6 col-xs-6">
+            <div className="col-xxl-6 col-xl-12">
               <div className="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                 <Link
                   href="/product-details"
@@ -113,7 +113,7 @@ const PopularProductsOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-3 col-xl-4 col-sm-6 col-xs-6">
+            <div className="col-xxl-6 col-xl-12">
               <div className="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                 <Link
                   href="/product-details"
@@ -158,7 +158,7 @@ const PopularProductsOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-3 col-xl-4 col-sm-6 col-xs-6">
+            <div className="col-xxl-6 col-xl-12">
               <div className="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                 <Link
                   href="/product-details"
@@ -203,7 +203,7 @@ const PopularProductsOne = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xxl-3 col-xl-4 col-sm-6 col-xs-6">
+            <div className="col-xxl-6 col-xl-12">
               <div className="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
                 <Link
                   href="/product-details"
@@ -224,186 +224,6 @@ const PopularProductsOne = () => {
                       tabIndex={0}
                     >
                       Computer &amp; Tablets
-                    </Link>
-                  </h6>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Wired Headphones
-                  </span>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Over-Ear Headphone
-                  </span>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Sports Headphone
-                  </span>
-                  <span className="text-gray-600 text-sm mb-0">
-                    Earbud Headphone
-                  </span>
-                  <Link
-                    href="/shop"
-                    className="text-tertiary-600 flex-align gap-8 mt-24"
-                  >
-                    All Categories
-                    <i className="ph ph-arrow-right d-flex" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-sm-6 col-xs-6">
-              <div className="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                <Link
-                  href="/product-details"
-                  className="product-card__thumb flex-center h-unset rounded-8 bg-gray-50 position-relative w-unset flex-shrink-0 p-24"
-                  tabIndex={0}
-                >
-                  <img
-                    src="assets/images/thumbs/popular-img5.png"
-                    alt=""
-                    className="w-auto max-w-unset"
-                  />
-                </Link>
-                <div className="product-card__content flex-grow-1">
-                  <h6 className="title text-lg fw-semibold mb-12">
-                    <Link
-                      href="/product-details"
-                      className="link text-line-2"
-                      tabIndex={0}
-                    >
-                      Car &amp; GPS
-                    </Link>
-                  </h6>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Wired Headphones
-                  </span>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Over-Ear Headphone
-                  </span>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Sports Headphone
-                  </span>
-                  <span className="text-gray-600 text-sm mb-0">
-                    Earbud Headphone
-                  </span>
-                  <Link
-                    href="/shop"
-                    className="text-tertiary-600 flex-align gap-8 mt-24"
-                  >
-                    All Categories
-                    <i className="ph ph-arrow-right d-flex" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-sm-6 col-xs-6">
-              <div className="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                <Link
-                  href="/product-details"
-                  className="product-card__thumb flex-center h-unset rounded-8 bg-gray-50 position-relative w-unset flex-shrink-0 p-24"
-                  tabIndex={0}
-                >
-                  <img
-                    src="assets/images/thumbs/popular-img6.png"
-                    alt=""
-                    className="w-auto max-w-unset"
-                  />
-                </Link>
-                <div className="product-card__content flex-grow-1">
-                  <h6 className="title text-lg fw-semibold mb-12">
-                    <Link
-                      href="/product-details"
-                      className="link text-line-2"
-                      tabIndex={0}
-                    >
-                      Camera &amp; Video
-                    </Link>
-                  </h6>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Wired Headphones
-                  </span>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Over-Ear Headphone
-                  </span>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Sports Headphone
-                  </span>
-                  <span className="text-gray-600 text-sm mb-0">
-                    Earbud Headphone
-                  </span>
-                  <Link
-                    href="/shop"
-                    className="text-tertiary-600 flex-align gap-8 mt-24"
-                  >
-                    All Categories
-                    <i className="ph ph-arrow-right d-flex" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-sm-6 col-xs-6">
-              <div className="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                <Link
-                  href="/product-details"
-                  className="product-card__thumb flex-center h-unset rounded-8 bg-gray-50 position-relative w-unset flex-shrink-0 p-24"
-                  tabIndex={0}
-                >
-                  <img
-                    src="assets/images/thumbs/popular-img7.png"
-                    alt=""
-                    className="w-auto max-w-unset"
-                  />
-                </Link>
-                <div className="product-card__content flex-grow-1">
-                  <h6 className="title text-lg fw-semibold mb-12">
-                    <Link
-                      href="/product-details"
-                      className="link text-line-2"
-                      tabIndex={0}
-                    >
-                      Kitchen Appliance
-                    </Link>
-                  </h6>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Wired Headphones
-                  </span>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Over-Ear Headphone
-                  </span>
-                  <span className="text-gray-600 text-sm mb-4">
-                    Sports Headphone
-                  </span>
-                  <span className="text-gray-600 text-sm mb-0">
-                    Earbud Headphone
-                  </span>
-                  <Link
-                    href="/shop"
-                    className="text-tertiary-600 flex-align gap-8 mt-24"
-                  >
-                    All Categories
-                    <i className="ph ph-arrow-right d-flex" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-sm-6 col-xs-6">
-              <div className="product-card h-100 d-flex gap-16 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
-                <Link
-                  href="/product-details"
-                  className="product-card__thumb flex-center h-unset rounded-8 bg-gray-50 position-relative w-unset flex-shrink-0 p-24"
-                  tabIndex={0}
-                >
-                  <img
-                    src="assets/images/thumbs/popular-img8.png"
-                    alt=""
-                    className="w-auto max-w-unset"
-                  />
-                </Link>
-                <div className="product-card__content flex-grow-1">
-                  <h6 className="title text-lg fw-semibold mb-12">
-                    <Link
-                      href="/product-details"
-                      className="link text-line-2"
-                      tabIndex={0}
-                    >
-                      Phone &amp; Accessories
                     </Link>
                   </h6>
                   <span className="text-gray-600 text-sm mb-4">

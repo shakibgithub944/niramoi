@@ -328,9 +328,7 @@ const HeaderTwo = ({ category }) => {
                           <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
                             {menu?.submenus?.map((subMenu, index) => (
                               <li key={index}>
-                                <Link href={`/${subMenu?.link}`}>
-                                  {subMenu?.title}
-                                </Link>
+                                <Link href="/shop">{subMenu?.title}</Link>
                               </li>
                             ))}
                           </ul>

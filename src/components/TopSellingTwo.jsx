@@ -64,33 +64,7 @@ const TopSellingTwo = () => {
     <section className="recommended">
       <div className="container container-lg">
         <div className="row g-12">
-          <div className="col-xxl-4">
-            <div className="position-relative rounded-16 bg-light-purple overflow-hidden p-28 z-1 text-center h-100">
-              <img
-                src="assets/images/bg/recommended-bg.png"
-                alt=""
-                className="position-absolute inset-block-start-0 inset-inline-start-0 z-n1 w-100 h-100 cover-img"
-              />
-              <div className="py-xl-4 text-center">
-                <span className="h6 mb-20 text-white">
-                  Insta360 GO 3S Action Camera - White
-                </span>
-                <div className="flex-center gap-12 text-white">
-                  <span className="">FROM</span>
-                  <h4 className="mb-8 text-white">$430</h4>
-                  <span className="badge-style-two position-relative me-8 bg-main-two-600 text-white text-sm py-2 px-8 rounded-4">
-                    20% off
-                  </span>
-                </div>
-              </div>
-              <img
-                src="assets/images/thumbs/recommended-img.png"
-                alt=""
-                className="mt-48 d-xxl-block d-none"
-              />
-            </div>
-          </div>
-          <div className="col-xxl-8">
+          <div className="col-xxl-12">
             <div className="border border-gray-100 p-24 rounded-16">
               <div className="section-heading mb-24">
                 <div className="flex-between flex-wrap gap-8">
