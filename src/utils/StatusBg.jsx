@@ -1,11 +1,13 @@
 export const StatusBg = (item) => {
   if (item === "Available") {
-    return "bg-green-100";
+    return "#F1F6FF";
   } else if (item === "Sold Out") {
-    return "bg-red-100";
+    return "#FFEBEE";
   } else if (item === "Limited Stock") {
-    return "bg-yellow-100";
+    return "#FFF3E0";
   } else if (item === "Sold") {
-    return "bg-success";
+    return "#F1F6FF";
+  } else {
+    return "#F1F6FF";
   }
 };
