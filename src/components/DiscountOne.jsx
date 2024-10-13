@@ -29,7 +29,7 @@ const DiscountOne = () => {
                   </Link>
                 </div>
                 <img
-                  src="assets/images/thumbs/discount-img1.png"
+                  src="assets/images/thumbs/discount-img2.png"
                   alt=""
                   className="d-sm-block d-none"
                 />

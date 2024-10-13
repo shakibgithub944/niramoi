@@ -1,17 +1,10 @@
 import BannerTwo from "../components/BannerTwo";
 import PromotionalTwo from "../components/PromotionalTwo";
-import DealsOne from "../components/DealsOne";
-import TopSellingOne from "../components/TopSellingOne";
 import TrendingOne from "../components/TrendingOne";
 import DiscountOne from "../components/DiscountOne";
-import FeaturedOne from "../components/FeaturedOne";
-import BigDealOne from "../components/BigDealOne";
-import TopSellingTwo from "../components/TopSellingTwo";
-import PopularProductsOne from "../components/PopularProductsOne";
-import DaySaleOne from "../components/DaySaleOne";
-import RecentlyViewedOne from "../components/RecentlyViewedOne";
 import BrandTwo from "../components/BrandTwo";
 import CategoryBasedProducts from "../components/CategoryBasedProducts";
+import CategoryWithBanner from "../components/CategoryWithBanner";
 
 export default function Home() {
   return (
@@ -19,11 +12,7 @@ export default function Home() {
       <BannerTwo />
 
       <PromotionalTwo />
-
-      <DealsOne />
-
-      <TopSellingOne />
-
+      <CategoryWithBanner title="Deal Of The Week" titleColor="" bgColor="" />
       <CategoryBasedProducts
         title="Health Bridge"
         titleColor="#6A9C89"
@@ -49,17 +38,16 @@ export default function Home() {
 
       <DiscountOne />
 
-      <FeaturedOne />
-
-      <BigDealOne />
-
-      <TopSellingTwo />
-
-      <PopularProductsOne />
-
-      <DaySaleOne />
-
-      <RecentlyViewedOne />
+      <CategoryBasedProducts
+        title="Reccomended For You"
+        titleColor="#4D869C"
+        bgColor="#CDE8E5"
+      />
+      <CategoryBasedProducts
+        title="Recently Viewed Products"
+        titleColor=""
+        bgColor=""
+      />
 
       <BrandTwo />
     </div>

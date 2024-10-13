@@ -110,7 +110,7 @@ const HeaderTwo = ({ category }) => {
                 onClick={() => handleMenuClick(0)}
                 className={`on-hover-item nav-menu__item `}
               >
-                <Link href="#" className="nav-menu__link">
+                <Link href="/shop" className="nav-menu__link">
                   Home
                 </Link>
               </li>
@@ -118,7 +118,7 @@ const HeaderTwo = ({ category }) => {
                 onClick={() => handleMenuClick(1)}
                 className={`on-hover-item nav-menu__item has-submenu`}
               >
-                <Link href="#" className="nav-menu__link">
+                <Link href="/shop" className="nav-menu__link">
                   Shop
                 </Link>
               </li>
@@ -131,7 +131,7 @@ const HeaderTwo = ({ category }) => {
                 <span className="badge-notification bg-warning-600 text-white text-sm py-2 px-8 rounded-4">
                   New
                 </span>
-                <Link href="#" className="nav-menu__link">
+                <Link href="/shop" className="nav-menu__link">
                   Pages
                 </Link>
               </li>
@@ -205,6 +205,11 @@ const HeaderTwo = ({ category }) => {
                   </button>
                 </div>
               </form>
+            </div>
+            <div>
+              <button type="button" class="btn bg-main-two-600">
+                Upload Prescription
+              </button>
             </div>
             {/* form Category start */}
             {/* Header Middle Right start */}

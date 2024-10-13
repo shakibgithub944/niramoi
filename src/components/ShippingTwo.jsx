@@ -9,7 +9,7 @@ const ShippingTwo = () => {
                 <i className="ph-fill ph-car-profile" />
               </span>
               <div className="">
-                <span className="mb-0 text-heading fw-bold">Free Shipping</span>
+                <p className="mb-0 text-heading fw-bold">Free Shipping</p>
                 <span className="text-sm text-heading">
                   Free shipping all over the US
                 </span>
@@ -22,9 +22,7 @@ const ShippingTwo = () => {
                 <i className="ph-fill ph-hand-heart" />
               </span>
               <div className="">
-                <span className="mb-0 text-heading fw-bold">
-                  100% Satisfaction
-                </span>
+                <p className="mb-0 text-heading fw-bold">100% Satisfaction</p>
                 <span className="text-sm text-heading">
                   Free shipping all over the US
                 </span>
@@ -37,10 +35,7 @@ const ShippingTwo = () => {
                 <i className="ph-fill ph-credit-card" />
               </span>
               <div className="">
-                <span className="mb-0 text-heading fw-bold">
-                  {" "}
-                  Secure Payments
-                </span>
+                <p className="mb-0 text-heading fw-bold">Secure Payments</p>
                 <span className="text-sm text-heading">
                   Free shipping all over the US
                 </span>
@@ -53,7 +48,7 @@ const ShippingTwo = () => {
                 <i className="ph-fill ph-chats" />
               </span>
               <div className="">
-                <span className="mb-0 text-heading fw-bold"> 24/7 Support</span>
+                <p className="mb-0 text-heading fw-bold"> 24/7 Support</p>
                 <span className="text-sm text-heading">
                   Free shipping all over the US
                 </span>

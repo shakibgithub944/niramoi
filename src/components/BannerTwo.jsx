@@ -4,7 +4,8 @@ import { Slider } from "@/app/layout";
 import Link from "next/link";
 const BannerTwo = () => {
   const settings = {
-    dots: true,
+    // dots: true,
+    autoPlay: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
@@ -21,9 +22,9 @@ const BannerTwo = () => {
               alt=""
               className="banner-img position-absolute inset-block-start-0 inset-inline-start-0 w-100 h-100 z-n1 object-fit-cover rounded-24"
             />
-            <div className="banner-item-two__slider">
+            <div className="p-48">
               <Slider {...settings}>
-                <div className="banner-item-two">
+                <div className="">
                   <div className="banner-item-two__content">
                     <span className="text-white mb-8 h6">
                       Starting at only $250
@@ -41,11 +42,11 @@ const BannerTwo = () => {
                       </span>
                     </Link>
                   </div>
-                  <div className="banner-item-two__thumb position-absolute bottom-0">
-                    <img src="assets/images/thumbs/banner-two-img.png" alt="" />
-                  </div>
+                  {/* <div className="banner-item-two__thumb position-absolute bottom-0">
+                  <img src="assets/images/thumbs/best-sell2.png" alt="" />
+                </div> */}
                 </div>
-                <div className="banner-item-two">
+                <div className="">
                   <div className="banner-item-two__content">
                     <span className="text-white mb-8 h6">
                       Starting at only $250
@@ -63,12 +64,31 @@ const BannerTwo = () => {
                       </span>
                     </Link>
                   </div>
-                  <div className="banner-item-two__thumb position-absolute bottom-0">
-                    <img
-                      src="assets/images/thumbs/banner-two-img2.png"
-                      alt=""
-                    />
+                  {/* <div className="banner-item-two__thumb position-absolute bottom-0">
+                  <img src="assets/images/thumbs/best-sell2.png" alt="" />
+                </div> */}
+                </div>
+                <div className="">
+                  <div className="banner-item-two__content">
+                    <span className="text-white mb-8 h6">
+                      Starting at only $250
+                    </span>
+                    <h2 className="banner-item-two__title bounce text-white">
+                      Get The Sound You Love For Less
+                    </h2>
+                    <Link
+                      href="/shop"
+                      className="btn btn-outline-white d-inline-flex align-items-center rounded-pill gap-8 mt-48"
+                    >
+                      Shop Now
+                      <span className="icon text-xl d-flex">
+                        <i className="ph ph-shopping-cart-simple" />
+                      </span>
+                    </Link>
                   </div>
+                  {/* <div className="banner-item-two__thumb position-absolute bottom-0">
+                  <img src="assets/images/thumbs/best-sell2.png" alt="" />
+                </div> */}
                 </div>
               </Slider>
             </div>
