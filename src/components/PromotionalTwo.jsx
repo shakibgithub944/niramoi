@@ -49,7 +49,7 @@ const PromotionalTwo = () => {
                       border: "1px solid #6A9C89",
                     }}
                   >
-                    Upload Prescription
+                    Health Care
                   </span>
                 </div>
               </div>
