@@ -61,7 +61,7 @@ export default function RootLayout({
           <div className="row h-100">
             {/* Sticky Sidebar */}
             <aside
-              className="d-none d-md-block col-md-2 border h-100"
+              className="d-none d-lg-block col-md-2 border h-100"
               style={{ position: "sticky", top: 0 }}
             >
               <SidebarOptions />

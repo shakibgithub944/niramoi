@@ -2,8 +2,8 @@ const NewsletterTwo = () => {
   return (
     <div className="newsletter-two bg-neutral-600 py-32">
       <div className="container container-lg">
-        <div className="flex-between gap-20 flex-wrap">
-          <div className="flex-align gap-22">
+        <div className="flex-between justify-content-center gap-10 flex-wrap">
+          <div className="flex-align gap-20">
             <span className="d-flex">
               <img src="assets/images/icon/envelop.png" alt="" />
             </span>
