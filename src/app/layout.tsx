@@ -16,6 +16,7 @@ import dynamic from "next/dynamic";
 export const Slider = dynamic(() => import("react-slick"), { ssr: false });
 export const ReactSlider = dynamic(() => import("react-slick"), { ssr: false });
 import HeaderTwo from "../components/HeaderTwo";
+import Header from "../components/Header";
 import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
 import ShippingTwo from "../components/ShippingTwo";
@@ -50,6 +51,7 @@ export default function RootLayout({
         <PhosphorIconInit />
         <header style={{ position: "sticky", top: 0, zIndex: 1000 }}>
           <HeaderTwo category={false} />
+          {/* <Header /> */}
         </header>
 
         <div
