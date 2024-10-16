@@ -23,19 +23,6 @@ const Header = () => {
       }
     };
   }, []);
-
-  // Set the default language
-  const [selectedLanguage, setSelectedLanguage] = useState("Eng");
-  const handleLanguageChange = (language) => {
-    setSelectedLanguage(language);
-  };
-
-  // Set the default currency
-  const [selectedCurrency, setSelectedCurrency] = useState("USD");
-  const handleCurrencyChange = (currency) => {
-    setSelectedCurrency(currency);
-  };
-
   // Mobile menu support
   const [menuActive, setMenuActive] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);
@@ -53,20 +40,14 @@ const Header = () => {
   };
 
   // category control support
-  const [activeCategory, setActiveCategory] = useState(false);
-  const handleCategoryToggle = () => {
-    setActiveCategory(!activeCategory);
-  };
-  const [activeIndexCat, setActiveIndexCat] = useState(null);
-  const handleCatClick = (index) => {
-    setActiveIndexCat(activeIndexCat === index ? null : index);
-  };
+  //   const [activeCategory, setActiveCategory] = useState(false);
 
   return (
     <>
       <div className="overlay" />
       <div
-        className={`side-overlay ${(menuActive || activeCategory) && "show"}`}
+        // className={`side-overlay ${(menuActive || activeCategory) && "show"}`}
+        className={`side-overlay ${menuActive && "show"}`}
       />
       {/* ==================== Search Box Start Here ==================== */}
       <form action="#" className={`search-box ${activeSearch && "active"}`}>
