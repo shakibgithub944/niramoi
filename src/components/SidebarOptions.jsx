@@ -1,45 +1,89 @@
-import Link from "next/link";
+"use client";
+import React, { useState } from "react";
+import { ChevronDown, ChevronRight, X } from "lucide-react";
 import MenuOptions from "../utils/menuOptions.json";
+import Link from "next/link";
 
 const SidebarOptions = () => {
+  const [activeMenus, setActiveMenus] = useState({});
+
+  const toggleMenu = (level, index) => {
+    setActiveMenus((prev) => ({
+      ...prev,
+      [level]: prev[level] === index ? null : index,
+    }));
+  };
+
+  // Custom link component to replace Next.js Link
+  const CustomLink = ({ href, children }) => (
+    <Link href={href} className="text-dark">
+      {children}
+    </Link>
+  );
+
   return (
-    <div className="d-lg-block d-none flex-shrink-0">
-      <div className="responsive-dropdown style-two common-dropdown nav-submenu p-0 submenus-submenu-wrapper shadow-none position-relative border-top-0">
-        <button
-          type="button"
-          className="close-responsive-dropdown rounded-circle text-xl position-absolute inset-inline-end-0 inset-block-start-0 mt-4 me-8 d-lg-none d-flex"
-        >
-          <i className="ph ph-x" />{" "}
-        </button>
-        <div className="logo px-16 d-lg-none d-block">
-          <Link href="/" className="link">
-            <img src="assets/images/logo/logo.png" alt="Logo" />
-          </Link>
-        </div>
-        <ul className="responsive-dropdown__list scroll-sm p-0 py-8 overflow-y-auto ">
+    <div className="transition-all">
+      <div className="p-3 mt-5">
+        <ul className="list-none">
           {MenuOptions.map((menu, index) => (
-            <li key={index} className="has-submenus-submenu">
-              <Link
-                href="#"
-                className="text-gray-500 text-15 py-12 px-16 flex-align gap-8 rounded-0"
+            <li key={index} className="mb-2 my-6 py-8 px-2">
+              <span
+                onClick={() => toggleMenu("main", index)}
+                className="d-flex justify-content-between align-items-center"
               >
-                <span>{menu?.title}</span>
-                <span className="icon text-md d-flex ms-auto">
-                  <i className="ph ph-caret-right" />
-                </span>
-              </Link>
-              <div className="submenus-submenu py-16">
-                <h6 className="text-lg px-16 submenus-submenu__title">
-                  {menu?.title}
-                </h6>
-                <ul className="submenus-submenu__list max-h-300 overflow-y-auto scroll-sm">
-                  {menu?.submenus?.map((subMenu, index) => (
-                    <li key={index}>
-                      <Link href="/shop">{subMenu?.title}</Link>
+                <span className="text-gray-800">{menu.title}</span>
+                {activeMenus.main === index ? (
+                  <ChevronDown size={20} />
+                ) : (
+                  <ChevronRight size={20} />
+                )}
+              </span>
+              {activeMenus.main === index && (
+                <ul className="pl-3 mt-2">
+                  {menu.submenus.map((submenu, subIndex) => (
+                    <li key={subIndex} className="py-1 my-5">
+                      {submenu.submenus ? (
+                        <>
+                          <span
+                            onClick={() => toggleMenu("sub", subIndex)}
+                            className="d-flex justify-content-between align-items-center"
+                          >
+                            <span className="text-gray-600">
+                              {submenu.title}
+                            </span>
+                            {activeMenus.sub === subIndex ? (
+                              <ChevronDown size={16} />
+                            ) : (
+                              <ChevronRight size={16} />
+                            )}
+                          </span>
+                          {activeMenus.sub === subIndex && (
+                            <ul className="pl-3 mt-2">
+                              {submenu.submenus.map(
+                                (subSubmenu, subSubIndex) => (
+                                  <li key={subSubIndex} className="py-1 my-3">
+                                    <CustomLink
+                                      href={subSubmenu.link || "/shop"}
+                                    >
+                                      <span className="text-gray-600 text-sm">
+                                        {subSubmenu.title}
+                                      </span>
+                                    </CustomLink>
+                                  </li>
+                                )
+                              )}
+                            </ul>
+                          )}
+                        </>
+                      ) : (
+                        <CustomLink href={submenu.link || "/shop"}>
+                          <span className="text-gray-600">{submenu.title}</span>
+                        </CustomLink>
+                      )}
                     </li>
                   ))}
                 </ul>
-              </div>
+              )}
             </li>
           ))}
         </ul>

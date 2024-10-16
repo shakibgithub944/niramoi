@@ -15,7 +15,7 @@ import PhosphorIconInit from "../helper/PhosphorIconInit";
 import dynamic from "next/dynamic";
 export const Slider = dynamic(() => import("react-slick"), { ssr: false });
 export const ReactSlider = dynamic(() => import("react-slick"), { ssr: false });
-import HeaderTwo from "../components/HeaderTwo";
+import BottomTab from "../components/BottomTab";
 import Header from "../components/Header";
 import FooterTwo from "../components/FooterTwo";
 import BottomFooter from "../components/BottomFooter";
@@ -49,9 +49,9 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {/* <RouteScrollToTop /> */}
         <PhosphorIconInit />
+        <Header />
         <header style={{ position: "sticky", top: 0, zIndex: 1000 }}>
-          <HeaderTwo category={false} />
-          {/* <Header /> */}
+          {/* <HeaderTwo category={false} /> */}
         </header>
 
         <div
@@ -61,7 +61,7 @@ export default function RootLayout({
           <div className="row h-100">
             {/* Sticky Sidebar */}
             <aside
-              className="d-none d-lg-block col-md-2 border h-100"
+              className="d-none d-lg-block col-2 border h-100"
               style={{ position: "sticky", top: 0 }}
             >
               <SidebarOptions />
@@ -69,7 +69,7 @@ export default function RootLayout({
 
             {/* Scrollable Content Area */}
             <main
-              className="col-12 col-md-10 overflow-auto"
+              className="col-sm-12 col-md-10 overflow-auto"
               style={{ height: "100vh", overflowY: "auto" }}
             >
               {children}
@@ -82,6 +82,7 @@ export default function RootLayout({
             </main>
           </div>
         </div>
+        <BottomTab />
       </body>
     </html>
   );

@@ -3,7 +3,14 @@
     "title": "Cell Phone",
     "icon": "ph-caret-right",
     "submenus": [
-      { "title": "Samsung", "link": "/shop" },
+      {
+        "title": "Samsung",
+        "link": "/shop",
+        "submenus": [
+          { "title": "Sub-subcategory 1", "link": "/shop" },
+          { "title": "Sub-subcategory 2", "link": "/shop" }
+        ]
+      },
       { "title": "Iphone", "link": "/shop" },
       { "title": "Vivo", "link": "/shop" },
       { "title": "Oppo", "link": "/shop" },
