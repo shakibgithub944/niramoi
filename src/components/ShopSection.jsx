@@ -10,7 +10,7 @@ const ShopSection = () => {
     setActive(!active);
   };
   return (
-    <section className="shop py-80">
+    <section className="shop py-10">
       <div className={`side-overlay ${active && "show"}`}></div>
       <div className="container container-lg">
         <div className="row">

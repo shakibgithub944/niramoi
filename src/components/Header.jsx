@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import query from "jquery";
 import Link from "next/link";
 
 const Header = () => {
@@ -13,14 +12,6 @@ const Header = () => {
         setScroll(true);
       }
       return () => (window.onscroll = null);
-    };
-    const selectElement = query(".js-example-basic-single");
-    // selectElement.select2();
-
-    return () => {
-      if (selectElement.data("select2")) {
-        // selectElement.select2("destroy");
-      }
     };
   }, []);
   // Mobile menu support
@@ -62,8 +53,9 @@ const Header = () => {
           <div className="position-relative">
             <input
               type="text"
-              className="form-control py-12 px-24 text-xl rounded-pill pe-64"
+              className="form-control py-12 px-24 text-xl pe-64"
               placeholder="Search for a product or brand"
+              style={{ borderRadius: "15px" }}
             />
             <button
               type="submit"
@@ -247,8 +239,9 @@ const Header = () => {
                 <div className="search-form__wrapper position-relative">
                   <input
                     type="text"
-                    className="search-form__input common-input py-13 ps-16 pe-18 rounded-pill pe-44"
+                    className="search-form__input common-input py-13 ps-16 pe-18 pe-44"
                     placeholder="Search for a product or brand"
+                    style={{ borderRadius: "15px" }}
                   />
                   <button
                     type="submit"
