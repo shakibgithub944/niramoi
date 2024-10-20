@@ -8872,12 +8872,12 @@ input:focus-visible {
 /* ================= Slick Arrow & Dots css Start ================ */
 /* ================== Section Heading Css Start ========================= */
 .section-heading {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1199px) {
   .section-heading {
-    margin-bottom: 24px;
+    margin-bottom: 12px;
   }
 }
 /* ================== Section Heading Css End ========================= */

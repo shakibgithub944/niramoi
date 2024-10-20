@@ -1,3 +1,4 @@
+"use client";
 // import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -46,20 +47,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable}`}
+        style={{ overflow: "hidden" }}
+      >
         {/* <RouteScrollToTop /> */}
+
         <PhosphorIconInit />
         <Header />
-        <header style={{ position: "sticky", top: 0, zIndex: 1000 }}>
-          {/* <HeaderTwo category={false} /> */}
-        </header>
-
         <div
           className="container-fluid"
           style={{ height: "100vh", overflow: "hidden" }}
         >
-          <div className="row h-100">
-            {/* Sticky Sidebar */}
+          <div className="row h-100" style={{ overflow: "hidden" }}>
             <aside
               className="d-none d-lg-block col-2 border h-100"
               style={{ position: "sticky", top: 0 }}
@@ -67,10 +67,14 @@ export default function RootLayout({
               <SidebarOptions />
             </aside>
 
-            {/* Scrollable Content Area */}
             <main
-              className="col-sm-12 col-md-10 overflow-auto"
-              style={{ height: "100vh", overflowY: "auto" }}
+              className="col-sm-12 col-md-10"
+              style={{
+                height: "100vh",
+                overflowY: "scroll",
+                msOverflowStyle: "none" /* IE and Edge */,
+                scrollbarWidth: "none" /* Firefox */,
+              }}
             >
               {children}
               <footer>

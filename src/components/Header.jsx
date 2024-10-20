@@ -5,15 +5,18 @@ import Link from "next/link";
 const Header = () => {
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
-    window.onscroll = () => {
+    const handleScroll = () => {
       if (window.pageYOffset < 150) {
         setScroll(false);
       } else if (window.pageYOffset > 150) {
         setScroll(true);
       }
-      return () => (window.onscroll = null);
     };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   // Mobile menu support
   const [menuActive, setMenuActive] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);
@@ -31,15 +34,16 @@ const Header = () => {
   };
 
   // category control support
-  //   const [activeCategory, setActiveCategory] = useState(false);
+  // const [activeCategory, setActiveCategory] = useState(false);
 
   return (
     <>
-      <div className="overlay" />
+      {/* <div className="overlay" /> */}
       <div
         // className={`side-overlay ${(menuActive || activeCategory) && "show"}`}
         className={`side-overlay ${menuActive && "show"}`}
       />
+
       {/* ==================== Search Box Start Here ==================== */}
       <form action="#" className={`search-box ${activeSearch && "active"}`}>
         <button
@@ -336,7 +340,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="on-hover-item nav-menu__item has-submenu">
-                    <span className="badge-notification bg-warning-600 text-white text-sm py-2 px-8 rounded-4">
+                    <span className="badge-notification bg-main-600 text-white text-sm py-2 px-8 rounded-4">
                       New
                     </span>
                     <Link

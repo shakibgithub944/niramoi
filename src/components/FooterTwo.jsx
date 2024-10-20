@@ -17,7 +17,7 @@ const FooterTwo = () => {
               other IT related products.
             </p>
             <div className="flex-align gap-16 mb-16">
-              <span className="w-32 h-32 flex-center rounded-circle border border-gray-100 text-main-two-600 text-md flex-shrink-0">
+              <span className="w-32 h-32 flex-center rounded-circle border border-gray-100 text-main-600 text-md flex-shrink-0">
                 <i className="ph-fill ph-phone-call" />
               </span>
               <Link
@@ -28,7 +28,7 @@ const FooterTwo = () => {
               </Link>
             </div>
             <div className="flex-align gap-16 mb-16">
-              <span className="w-32 h-32 flex-center rounded-circle border border-gray-100 text-main-two-600 text-md flex-shrink-0">
+              <span className="w-32 h-32 flex-center rounded-circle border border-gray-100 text-main-600 text-md flex-shrink-0">
                 <i className="ph-fill ph-envelope" />
               </span>
               <Link
@@ -39,7 +39,7 @@ const FooterTwo = () => {
               </Link>
             </div>
             <div className="flex-align gap-16 mb-16">
-              <span className="w-32 h-32 flex-center rounded-circle border border-gray-100 text-main-two-600 text-md flex-shrink-0">
+              <span className="w-32 h-32 flex-center rounded-circle border border-gray-100 text-main-600 text-md flex-shrink-0">
                 <i className="ph-fill ph-map-pin" />
               </span>
               <span className="text-md text-gray-900 ">
@@ -341,7 +341,7 @@ const FooterTwo = () => {
               <li>
                 <Link
                   href="/https://www.facebook.com"
-                  className="w-44 h-44 flex-center bg-main-two-50 text-main-two-600 text-xl rounded-8 hover-bg-main-two-600 hover-text-white"
+                  className="w-44 h-44 flex-center bg-main-50 text-main-600 text-xl rounded-8 hover-bg-main-600 hover-text-white"
                 >
                   <i className="ph-fill ph-facebook-logo" />
                 </Link>
@@ -349,7 +349,7 @@ const FooterTwo = () => {
               <li>
                 <Link
                   href="/https://www.twitter.com"
-                  className="w-44 h-44 flex-center bg-main-two-50 text-main-two-600 text-xl rounded-8 hover-bg-main-two-600 hover-text-white"
+                  className="w-44 h-44 flex-center bg-main-50 text-main-600 text-xl rounded-8 hover-bg-main-600 hover-text-white"
                 >
                   <i className="ph-fill ph-twitter-logo" />
                 </Link>
@@ -357,7 +357,7 @@ const FooterTwo = () => {
               <li>
                 <Link
                   href="/https://www.linkedin.com"
-                  className="w-44 h-44 flex-center bg-main-two-50 text-main-two-600 text-xl rounded-8 hover-bg-main-two-600 hover-text-white"
+                  className="w-44 h-44 flex-center bg-main-50 text-main-600 text-xl rounded-8 hover-bg-main-600 hover-text-white"
                 >
                   <i className="ph-fill ph-instagram-logo" />
                 </Link>
@@ -365,7 +365,7 @@ const FooterTwo = () => {
               <li>
                 <Link
                   href="/https://www.pinterest.com"
-                  className="w-44 h-44 flex-center bg-main-two-50 text-main-two-600 text-xl rounded-8 hover-bg-main-two-600 hover-text-white"
+                  className="w-44 h-44 flex-center bg-main-50 text-main-600 text-xl rounded-8 hover-bg-main-600 hover-text-white"
                 >
                   <i className="ph-fill ph-linkedin-logo" />
                 </Link>

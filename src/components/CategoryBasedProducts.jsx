@@ -34,7 +34,7 @@ const CategoryBasedProducts = ({ title, titleColor, bgColor }) => {
                 <Slider {...Settings}>
                   {Products?.map((product, index) => (
                     <div key={index}>
-                      <ProductCard />
+                      <ProductCard product={product} />
                     </div>
                   ))}
                 </Slider>

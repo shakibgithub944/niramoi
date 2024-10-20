@@ -99,7 +99,7 @@ const CategoryWithBanner = ({ title, titleColor, bgColor, banner }) => {
               <Slider {...Settings}>
                 {Products?.map((product, index) => (
                   <div key={index}>
-                    <ProductCard />
+                    <ProductCard product={product} />
                   </div>
                 ))}
               </Slider>

@@ -21,11 +21,11 @@ const ProductDetailsTwo = () => {
     return () => clearInterval(interval);
   }, []);
   const productImages = [
-    "../../../public/assets/images/thumbs/product-details-two-thumb1.png",
-    "../../../public/assets/images/thumbs/product-details-two-thumb2.png",
-    "../../../public/assets/images/thumbs/product-details-two-thumb3.png",
-    "../../../public/assets/images/thumbs/product-details-two-thumb1.png",
-    "../../../public/assets/images/thumbs/product-details-two-thumb2.png",
+    "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC8yNTI3MlwvMjUyNzItTmFwYS1FeHRyYS11dmxyMWYuanBlZyIsImVkaXRzIjpbXX0=",
+    "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC8yODQwMVwvMjg0MDEtQ2Vldml0LWppZDl0Yi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJvdXRzaWRlIn19fQ==",
+    "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJtZWRpY2luZVwvNTJcLzUyNTA2LXRxZjE0cGtpLTEtODYwcmtmLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzAwLCJoZWlnaHQiOjMwMCwiZml0Ijoib3V0c2lkZSJ9fX0=",
+    "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC80ODEzMlwvNDgxMzItU2VtZW4tQ2FyZS1jb3B5LWowMHk0ai5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMDAsImhlaWdodCI6MzAwLCJmaXQiOiJvdXRzaWRlIn19fQ==",
+    "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC8yNzQyOFwvMjc0MjgtRnJvZGV4LWNvcHktcmxueTJoLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMwMCwiaGVpZ2h0IjozMDAsImZpdCI6Im91dHNpZGUifX19",
   ];
 
   // increment & decrement
@@ -55,7 +55,11 @@ const ProductDetailsTwo = () => {
                   <div className="product-details__thumb-slider border border-gray-100 rounded-16">
                     <div className="">
                       <div className="product-details__thumb flex-center h-100">
-                        <img src={mainImage} alt="Main Product" />
+                        <img
+                          src={mainImage}
+                          alt="Main Product"
+                          style={{ width: "100%", height: "70%" }}
+                        />
                       </div>
                     </div>
                   </div>

@@ -3,8 +3,9 @@ import PromotionalTwo from "../components/PromotionalTwo";
 import TrendingOne from "../components/TrendingOne";
 import DiscountOne from "../components/DiscountOne";
 import BrandTwo from "../components/BrandTwo";
-// import CategoryBasedProducts from "../components/CategoryBasedProducts";
+import CampaignTabs from "../components/CampaignTabs";
 import CategoryWithBanner from "../components/CategoryWithBanner";
+import HotDeals from "../components/HotDeals";
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
         bgColor=""
         banner="2"
       />
-
+      <CampaignTabs />
       <CategoryWithBanner
         title="Reccomended For You"
         titleColor="#000"
@@ -49,6 +50,7 @@ export default function Home() {
         bgColor=""
         banner="1"
       />
+      <HotDeals />
       <CategoryWithBanner
         title="Recently Viewed Products"
         titleColor="#000"

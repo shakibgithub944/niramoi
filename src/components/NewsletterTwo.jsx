@@ -25,7 +25,7 @@ const NewsletterTwo = () => {
               />
               <button
                 type="submit"
-                className="btn btn-main-two flex-shrink-0 rounded-8 py-16"
+                className="btn bg-main-600 flex-shrink-0 rounded-8 py-16"
               >
                 {" "}
                 Subscribe

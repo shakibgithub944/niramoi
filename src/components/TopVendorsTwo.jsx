@@ -41,7 +41,7 @@ const TopVendorsTwo = () => {
     prevArrow: <SamplePrevArrow />,
   };
   return (
-    <section className="top-vendor py-80">
+    <section className="top-vendor pt-80">
       <div className="container container-lg">
         <div className="border border-gray-100 p-24 rounded-16">
           <div className="section-heading mb-24">
