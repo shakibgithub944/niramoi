@@ -17,7 +17,7 @@ const CategoryWithBanner = ({ title, titleColor, bgColor, banner }) => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <section className="top-selling-products pt-80">
+    <section className="top-selling-products pt-40">
       <div className="container container-lg">
         <div
           className="border border-gray-100 p-24 rounded-16"

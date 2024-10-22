@@ -79,7 +79,7 @@ const HotDeals = () => {
   };
 
   return (
-    <section className="hot-deals pt-80">
+    <section className="hot-deals pt-40">
       <div className="container container-lg">
         <div className="section-heading">
           <div className="flex-between flex-wrap gap-8">

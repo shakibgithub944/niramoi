@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const FooterTwo = () => {
   return (
-    <footer className="footer py-80">
+    <footer className="footer py-40">
       <div className="container container-lg">
         <div className="footer-item-two-wrapper d-flex align-items-start flex-wrap">
           <div className="footer-item max-w-275">

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const DiscountOne = () => {
   return (
-    <section className="discount pt-80">
+    <section className="discount pt-40">
       <div className="container container-lg">
         <div className="row gy-4">
           <div className="col-xl-6">

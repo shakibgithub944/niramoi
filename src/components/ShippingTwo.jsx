@@ -1,6 +1,6 @@
 const ShippingTwo = () => {
   return (
-    <section className="shipping mb-80" id="shipping">
+    <section className="shipping mb-40" id="shipping">
       <div className="container container-lg">
         <div className="row gy-4">
           <div className="col-xxl-3 col-sm-6">

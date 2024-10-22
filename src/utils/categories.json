@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Pain Relief",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LTEwNjgxLUdsdWNvbWV0ZXJzLURpYWJldGljLUNhcmUtdDd4YzRyLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjIwLCJoZWlnaHQiOjI1MCwiZml0Ijoib3V0c2lkZSJ9fX0="
+  },
+  {
+    "id": 2,
+    "name": "Cough & Cold",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LVNraW5jYXJlLWw4NTI4Zy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIyMCwiaGVpZ2h0IjoyNTAsImZpdCI6Im91dHNpZGUifX19"
+  },
+  {
+    "id": 3,
+    "name": "Allergy",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUNvbmRvbXMtMmszNW1lLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjIwLCJoZWlnaHQiOjI1MCwiZml0Ijoib3V0c2lkZSJ9fX0="
+  },
+  {
+    "id": 4,
+    "name": "Digestive Health",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUJhYnktUGVyc29uYWwtQ2FyZS1mNGdlN3UucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjAsImhlaWdodCI6MjUwLCJmaXQiOiJvdXRzaWRlIn19fQ=="
+  },
+  {
+    "id": 5,
+    "name": "Vitamins",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUNhdC01c2cwaXUucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjAsImhlaWdodCI6MjUwLCJmaXQiOiJvdXRzaWRlIn19fQ=="
+  },
+  {
+    "id": 6,
+    "name": "Skin Care",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LVNuYWNrcy1CZXZlcmFnZXMtcW5iaTd1LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjIwLCJoZWlnaHQiOjI1MCwiZml0Ijoib3V0c2lkZSJ9fX0="
+  },
+  {
+    "id": 7,
+    "name": "Antibiotics",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUhhaXJjYXJlLWttNDRnMC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIyMCwiaGVpZ2h0IjoyNTAsImZpdCI6Im91dHNpZGUifX19"
+  },
+  {
+    "id": 8,
+    "name": "Cardiovascular",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUVsZGVybHktQ2FyZS1rZGk5dnMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjAsImhlaWdodCI6MjUwLCJmaXQiOiJvdXRzaWRlIn19fQ=="
+  },
+  {
+    "id": 18,
+    "name": "Cardiovascular",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUVsZGVybHktQ2FyZS1rZGk5dnMucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjAsImhlaWdodCI6MjUwLCJmaXQiOiJvdXRzaWRlIn19fQ=="
+  },
+  {
+    "id": 9,
+    "name": "Diabetes Care",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUZlZWRpbmctdTNjMGo3LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjIwLCJoZWlnaHQiOjI1MCwiZml0Ijoib3V0c2lkZSJ9fX0="
+  },
+  {
+    "id": 10,
+    "name": "First Aid",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUhlYWx0aC1JbW11bml0eS1Cb29zdGVycy1kaTRlbncucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjAsImhlaWdodCI6MjUwLCJmaXQiOiJvdXRzaWRlIn19fQ=="
+  },
+  {
+    "id": 11,
+    "name": "Mental Health",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LVBlcnNvbmFsLUx1YnJpY2FudHMtQWNjZXNzb3JpZXMtc3l1aHpsLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjIwLCJoZWlnaHQiOjI1MCwiZml0Ijoib3V0c2lkZSJ9fX0="
+  },
+  {
+    "id": 12,
+    "name": "Respiratory Care",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUd5bS1TdXBwbGVtZW50cy1vaGVwM3IucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjAsImhlaWdodCI6MjUwLCJmaXQiOiJvdXRzaWRlIn19fQ=="
+  },
+  {
+    "id": 13,
+    "name": "Eye Care",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LUFxdWFyaXVtLUZpc2gtYTdqbzl4LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjIwLCJoZWlnaHQiOjI1MCwiZml0Ijoib3V0c2lkZSJ9fX0="
+  },
+  {
+    "id": 14,
+    "name": "Women's Health",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LURvZy1jb2s5b20ucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjAsImhlaWdodCI6MjUwLCJmaXQiOiJvdXRzaWRlIn19fQ=="
+  },
+  {
+    "id": 15,
+    "name": "Men's Health",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LU5hdHVyYWwtQ2FyZS1XZWxsbmVzcy01aXhybXQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMjAsImhlaWdodCI6MjUwLCJmaXQiOiJvdXRzaWRlIn19fQ=="
+  },
+  {
+    "id": 16,
+    "name": "Cough & Cold",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LVNraW5jYXJlLWw4NTI4Zy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIyMCwiaGVpZ2h0IjoyNTAsImZpdCI6Im91dHNpZGUifX19"
+  },
+  {
+    "id": 17,
+    "name": "Mental Health",
+    "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJCbG9jay1iX2NvbmZpZ1wvMFwvMTI3LVBlcnNvbmFsLUx1YnJpY2FudHMtQWNjZXNzb3JpZXMtc3l1aHpsLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjIwLCJoZWlnaHQiOjI1MCwiZml0Ijoib3V0c2lkZSJ9fX0="
+  }
+]

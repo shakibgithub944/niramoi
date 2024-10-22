@@ -6,6 +6,8 @@ import BrandTwo from "../components/BrandTwo";
 import CampaignTabs from "../components/CampaignTabs";
 import CategoryWithBanner from "../components/CategoryWithBanner";
 import HotDeals from "../components/HotDeals";
+import Category from "../components/Category";
+import ReferAndEarn from "../components/ReferAndEarn";
 
 export default function Home() {
   return (
@@ -31,6 +33,9 @@ export default function Home() {
         bgColor=""
         banner="2"
       />
+      <Category />
+      <ReferAndEarn />
+
       <CategoryWithBanner
         title="Medi Care Essentials"
         titleColor="#000"

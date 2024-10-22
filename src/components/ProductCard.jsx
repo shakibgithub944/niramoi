@@ -3,7 +3,7 @@ import Link from "next/link";
 const ProductCard = ({ product }) => {
   return (
     <div>
-      <div className="product-card h-100 p-16 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
+      <div className="product-card h-100 p-8 border border-gray-100 hover-border-main-600 rounded-16 position-relative transition-2">
         <Link
           href="/product-details-two"
           className="product-card__thumb flex-center rounded-16 bg-white position-relative"
@@ -31,7 +31,7 @@ const ProductCard = ({ product }) => {
               {product?.title}
             </Link>
           </h5>
-          <div className="product-card__price my-20">
+          <div className="product-card__price my-10">
             <span className="text-heading text-md fw-semibold">
               {product?.currentPrice}
               <span className="text-gray-500 fw-normal text-sm">
