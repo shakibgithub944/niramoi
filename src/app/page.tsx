@@ -8,7 +8,7 @@ import CategoryWithBanner from "../components/CategoryWithBanner";
 import HotDeals from "../components/HotDeals";
 import Category from "../components/Category";
 import ReferAndEarn from "../components/ReferAndEarn";
-
+import FeatureProducts from "../components/FeatureProducts";
 export default function Home() {
   return (
     <div>
@@ -68,6 +68,7 @@ export default function Home() {
         bgColor="#CDE8E5"
         banner="1"
       />
+      <FeatureProducts />
       <TrendingOne />
       <DiscountOne />
 
