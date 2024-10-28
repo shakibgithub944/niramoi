@@ -22,7 +22,7 @@ const SidebarOptions = () => {
   );
 
   return (
-    <div className="transition-all">
+    <div className="transition-all h-100" style={{ overflowY: "auto" }}>
       <div className="p-3 mt-5">
         <ul className="list-none">
           {MenuOptions.map((menu, index) => (
